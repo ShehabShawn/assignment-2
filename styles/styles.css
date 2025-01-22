@@ -11,13 +11,17 @@
     display: flex;
     
   }
-
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
   .nav-bar{
     max-width: 1440px;
     justify-content: space-between;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     align-items: center;
     margin: 0 auto;
+    background-color: rgba(255, 255, 255, 1);
   }
 .nav-buttons{
     margin-right: 30px;
@@ -31,7 +35,7 @@
     margin-right: 30px;
     margin-top: ;
     /* gap: 30px; */
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     
     
   }
@@ -47,3 +51,123 @@
   .nav-links{
     text-decoration: none;
   }
+.banner-part{
+    align-items: center;
+    gap: 50px;
+}
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.color-FEA301{
+    color: #FEA301;
+}
+
+.color-01ACFD{
+    color: #01ACFD;
+}
+.banner-desc{
+    font-size: 1.5rem;
+    
+}
+.banner-button{
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px 60px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* standard sectiojn */
+.standard-curriculum{
+    background-image: url(../assets/bg.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    /* height: 45vh; */
+    padding: 60px 0px;
+    text-align: center;
+
+}
+.curriculum-title{
+    font-size: 2.81rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+@media (max-width: 576px){
+    .buttons{
+        display: none;
+    }
+    .Contact{
+        display: none;
+    }
+    .banner-part{
+      display: grid;
+      grid-template-columns: 1fr, 1fr;
+      justify-items: center;
+      grid-auto-flow: dense;
+    }
+    .photo {
+        order: -1; 
+        justify-self: center; 
+        max-width: 576px;
+    }
+
+    .banner {
+        order: 0; 
+        text-align: center; 
+    }
+   
+}
+.three-cards{
+     background-color: #01ACFD;
+     margin-right: 30px;
+     border-radius: 18.86px;
+     padding: 40px 53px;
+     margin-bottom: 30px;
+}
+.card-title{
+    margin: 30px 78px;
+    font-weight: bold;
+    font-size: 1.53rem ;
+}
+.card-desc{
+    color: #808080;
+}
+
+
+.linear-gradient-section {
+    background: linear-gradient(180deg, #DEF5FF, rgba(255, 255, 255, 0));
+    text-align: center;
+}
+.second-card{
+    background: linear-gradient(180deg, #FFF4DC, rgba(255, 255, 255, 0));
+    text-align: center;
+}
+.first-card{
+    background: linear-gradient(180deg, #EEE1FF, rgba(255, 255, 255, 0));
+    text-align: center;
+    
+}
+.read-more-one{
+    color: #64C8FF;
+}
+.read-more-two{
+    color: #F0AA00;
+}
+.read-more-three{
+    color: #8700FF;
+}
+.fa-solid{
+    background-color: #F0AA00;
+    padding: 50px;
+    border-radius: 500px;
+}
