@@ -91,13 +91,80 @@ body{
     text-align: center;
 
 }
+.three-cards{
+    background-color: #01ACFD;
+    margin-right: 30px;
+    border-radius: 18.86px;
+    padding: 40px 53px;
+    margin-bottom: 30px;
+}
+.card-title{
+   margin: 30px 78px;
+   font-weight: bold;
+   font-size: 1.53rem ;
+}
+.card-desc{
+   color: #808080;
+}
+
+
+.linear-gradient-section {
+   background: linear-gradient(180deg, #DEF5FF, rgba(255, 255, 255, 0));
+   text-align: center;
+}
+.second-card{
+   background: linear-gradient(180deg, #FFF4DC, rgba(255, 255, 255, 0));
+   text-align: center;
+}
+.first-card{
+   background: linear-gradient(180deg, #EEE1FF, rgba(255, 255, 255, 0));
+   text-align: center;
+   
+}
+.read-more-one{
+   color: #64C8FF;
+}
+.read-more-two{
+   color: #F0AA00;
+}
+.read-more-three{
+   color: #8700FF;
+}
+.fa-solid{
+   background-color: #F0AA00;
+   padding: 50px;
+   border-radius: 500px;
+   color: #FFF4DC;
+}
 .curriculum-title{
     font-size: 2.81rem;
     font-weight: bold;
 }
+.one-photo{
+    max-width: 40%;
+    border-radius: 16px;
+    background-color: #FFF4DC;
+    margin-right: 18px;
+}
+.four-photo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 18px;
+    
+}
 
-
-
+.stories{
+    background: linear-gradient(360deg, rgba(254, 163, 1, 1), rgba(255, 255, 255, 0));
+   text-align: center;
+}
+.border-radius{
+    border-radius: 16px;
+    background-color: #64C8FF;
+}
+.border-radius-image{
+    border-radius: 16px;
+    
+}
 
 
 
@@ -126,48 +193,4 @@ body{
         text-align: center; 
     }
    
-}
-.three-cards{
-     background-color: #01ACFD;
-     margin-right: 30px;
-     border-radius: 18.86px;
-     padding: 40px 53px;
-     margin-bottom: 30px;
-}
-.card-title{
-    margin: 30px 78px;
-    font-weight: bold;
-    font-size: 1.53rem ;
-}
-.card-desc{
-    color: #808080;
-}
-
-
-.linear-gradient-section {
-    background: linear-gradient(180deg, #DEF5FF, rgba(255, 255, 255, 0));
-    text-align: center;
-}
-.second-card{
-    background: linear-gradient(180deg, #FFF4DC, rgba(255, 255, 255, 0));
-    text-align: center;
-}
-.first-card{
-    background: linear-gradient(180deg, #EEE1FF, rgba(255, 255, 255, 0));
-    text-align: center;
-    
-}
-.read-more-one{
-    color: #64C8FF;
-}
-.read-more-two{
-    color: #F0AA00;
-}
-.read-more-three{
-    color: #8700FF;
-}
-.fa-solid{
-    background-color: #F0AA00;
-    padding: 50px;
-    border-radius: 500px;
 }
