@@ -91,6 +91,31 @@ body{
     text-align: center;
 
 }
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background-color: #FEA301; 
+    padding: 10px 0; 
+}
+
+.marquee p {
+    display: inline-block;
+    font-size: 1.25rem; 
+    font-weight: bold;
+    color: white; 
+    animation: marquee 10s linear infinite; 
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%); 
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+
 .three-cards{
     background-color: #01ACFD;
     margin-right: 30px;
@@ -106,7 +131,17 @@ body{
 .card-desc{
    color: #808080;
 }
+.arrows i {
+    font-size: 2rem; 
+    color: #333; 
+    cursor: pointer; 
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
 
+.arrows i:hover {
+    color: #FEA301; 
+    transform: scale(1.2); 
+}
 
 .linear-gradient-section {
    background: linear-gradient(180deg, #DEF5FF, rgba(255, 255, 255, 0));
@@ -233,6 +268,7 @@ footer{
       grid-template-columns: 1fr, 1fr;
       justify-items: center;
       grid-auto-flow: dense;
+      
     }
     .photo {
         order: -1; 
@@ -261,6 +297,7 @@ footer{
     .arrows{
         display: none;
     }
+    
     .one-photo{
         display: none;
 
